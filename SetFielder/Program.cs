@@ -90,6 +90,7 @@ namespace SetFielder
                     continue;
                 }
 
+                template.Close();
                 stamper.FormFlattening = false;
                 stamper.Close();
             }
