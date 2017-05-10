@@ -12,3 +12,5 @@ E:\Users\haxoid\Documents\visual studio 2010\Projects\SetFielder - копия\Se
 E:\Users\haxoid\Documents\visual studio 2010\Projects\SetFielder - копия\SetFielder\obj\x86\Debug\SetFielder.csprojResolveAssemblyReference.cache
 E:\Users\haxoid\Documents\visual studio 2010\Projects\SetFielder - копия\SetFielder\obj\x86\Debug\SetFielder.Properties.Resources.resources
 E:\Users\haxoid\Documents\visual studio 2010\Projects\SetFielder - копия\SetFielder\obj\x86\Debug\SetFielder.csproj.GenerateResource.Cache
+D:\Repository\SetFielder-repo\SetFielder\obj\x86\Debug\SetFielder.exe
+D:\Repository\SetFielder-repo\SetFielder\obj\x86\Debug\SetFielder.pdb
