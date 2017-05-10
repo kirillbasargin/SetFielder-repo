@@ -1,0 +1,2 @@
+E:\Users\haxoid\Documents\visual studio 2010\Projects\SetFielder\SetFielder\obj\x86\Release\SetFielder.Properties.Resources.resources
+E:\Users\haxoid\Documents\visual studio 2010\Projects\SetFielder\SetFielder\obj\x86\Release\SetFielder.csproj.GenerateResource.Cache
