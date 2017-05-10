@@ -70,8 +70,8 @@ namespace SetFielder
             try
             {
                 var doc = new Document();
-                PdfReader template = new PdfReader(input); //Application.StartupPath + @"\input.pdf"
-                PdfStamper stamper = new PdfStamper(template, new FileStream(output, FileMode.OpenOrCreate)); //Application.StartupPath + @"\output.pdf"
+                PdfReader reader = new PdfReader(input); //Application.StartupPath + @"\input.pdf"
+                PdfStamper stamper = new PdfStamper(reader, new FileStream(output, FileMode.OpenOrCreate)); //Application.StartupPath + @"\output.pdf"
                 AcroFields fields = stamper.AcroFields;
 
                 if (fields.Fields.Count < Params.Count)
@@ -90,7 +90,7 @@ namespace SetFielder
                     continue;
                 }
 
-                template.Close();
+                reader.Close();
                 stamper.FormFlattening = false;
                 stamper.Close();
             }
