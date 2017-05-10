@@ -62,7 +62,8 @@ namespace SetFielder
             {
                 string[] split_parameters = element.Split(delimiterCharsSecond);
                 if (split_parameters.Length == 2)
-                    Params.Add(split_parameters[0].Trim(), split_parameters[1].Trim());
+                    if(!Params.ContainsKey(split_parameters[0].Trim()))
+                        Params.Add(split_parameters[0].Trim(), split_parameters[1].Trim());
                 else
                     return;
             }
