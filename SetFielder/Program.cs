@@ -96,7 +96,7 @@ namespace SetFielder
                 stamper.Close();
                 reader.Close();
             }
-            catch{ 
+            catch{
             	MessageBox.Show("Ошибка печати PDF макета. Обратитесь к администратору.");
                 return;
             }
